@@ -1,0 +1,324 @@
+:root {
+	--fundo:	#cdf1ee;
+	--detalhes:	#0FB2F2;
+	--botoes:	#0F88F2;
+	--letras:	#1B3BF2;
+	--enfase:	#076DF2;
+
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+:target {
+	scroll-margin-top: 120px;
+}
+
+body {
+	font-family: calibri, sans-serif;
+	background: var(--fundo);
+	color: var(--letras);
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(7, 109, 242, 0.7);
+	}
+
+	70% {
+		box-shadow: 0 0 0 10px rgba(7, 109, 242, 0);
+	}
+
+	100% {
+		box-shadow: 0 0 0 0 rgba(7, 109, 242, 0);
+	}
+}
+
+/*____________________HEADER____________________*/
+body .cabecalho {
+	width: 100%;
+	height: 80px;
+	top: 0px;
+	position: fixed;
+	font-size: 18px;
+	font-weight: bold;
+	box-shadow: 0px 0px 20px var(--detalhes);
+	background: var(--fundo);
+	transition: 1s all;
+}
+
+.cabecalho .titulo-principal {
+	position: relative;
+	top: 25px;
+	left: 30px;
+	font-size: 28px;
+	color: var(--enfase);
+	display: inline;
+}
+
+.cabecalho .menu {
+	float: right;
+	top: 40px;
+	display: inline;
+	width: 660px;
+	height: 30px;
+	transition: 1s all;
+	margin: 25px 30px 0 0;
+}
+
+.menu li {
+	text-align: center;
+	border: 2px solid var(--detalhes);
+	border-radius: 5px;
+	animation: pulse 3s infinite;
+	height: 24px;
+	display: inline-block;
+}
+
+.menu .bt-inicio, .bt-skills{
+	width: 60px;
+}
+
+.menu .bt-sobre{
+	width: 107px;
+}
+
+.menu .bt-hobbies{
+	width: 83px;
+}
+
+.menu .bt-formacao{
+	width: 98px;
+}
+
+.menu .bt-projetos{
+	width: 87px;
+}
+
+.menu .bt-contatos{
+	width: 91px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: var(--letras);
+	transition: 1s all;
+	position: relative;
+	top: 3px;
+}
+
+.menu a:hover {
+	letter-spacing: 2px;
+}
+
+/*____________________MAIN____________________*/
+
+body main {
+	width: 940px;
+	margin: 120px auto 0 auto;
+	font-size: 18px;
+}
+
+main .foto {
+	width: 250px;
+	border-radius: 100% 100%;
+	float: right;
+}
+
+main .apresentacao {
+	padding-top: 80px;
+}
+
+h2 {
+	color: var(--enfase);
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.apresentacao .resumo {
+	margin: 20px 0;
+}
+
+.apresentacao .links {
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+.links li {
+	text-align: center;
+	height: 24px;
+	display: inline-block;
+	animation: pulse 3s infinite;
+	border: 2px solid var(--detalhes);
+	border-radius: 5px;
+}
+
+.links .bt-github {
+	width: 75px;
+}
+
+.links .bt-linkedin {
+	width: 90px;
+}
+
+.links .bt-twitter {
+	width: 80px;
+}
+
+.links .bt-curriculo {
+	width: 100px;
+}
+
+.links .bt-whatsapp {
+	width: 105px;
+}
+
+.formatacao-link {
+	display: inline-block;
+	padding-top: 3px;
+	font-size: 18px;
+	color: var(--letras);
+	text-decoration: none;
+	transition: 1s all;
+	top: 3px;
+}
+
+.formatacao-link:hover {
+	letter-spacing: 2px;
+}
+
+main .topicos {
+	padding-bottom: 60px;
+}
+
+.topicos .conteudo {
+	margin: 30px 0px 10px 0;
+}
+
+.conteudo .box {
+	display: inline-block;
+	width: 120px;
+	height: 100px;
+	text-align: center;
+}
+
+.conteudo h3 {
+	color: var(--letras);
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#formacao p {
+	padding-bottom: 20px;
+}
+
+#formacao .certificados {
+	text-align: center;
+	width: 123px;
+	height: 24px;
+	display: inline-block;
+	animation: pulse 3s infinite;
+	border: 2px solid var(--detalhes);
+	border-radius: 5px;
+}
+
+.conteudo p{
+	padding-bottom: 30px;
+}
+
+.conteudo a {
+	color: var(--letras);
+}
+
+.conteudo a:hover {
+	color: var(--enfase);
+}
+
+.conteudo .img-projetos {
+	width: 100%;
+}
+
+.conteudo .esq {
+	display: inline-block;
+	width: 460px;
+}
+
+.conteudo .dir {
+	display: inline;
+	width: 460px;
+	float: right;
+}
+
+.conteudo legend {
+	font-size: 16px;
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+form input, button {
+	display: block;
+	width: 300px;
+	text-align: center;
+	border: 2px solid;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	margin-top: 2px;
+	color: var(--letras);	
+	background-color: var(--fundo);
+}
+
+form label{	
+    margin-left: 10px;
+}
+
+form textarea {
+	display: block;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	width: 300px;
+	height: 100px;
+	text-align: center;
+	border: 2px solid var(--detalhes);
+	color: var(--letras);
+	border-radius: 5px;
+	background: var(--fundo);
+}
+
+textarea::placeholder {
+	font-family: calibri, sans-serif;
+	font-size: 15px;
+}
+
+form .botao-enviar {
+	width: 308px;
+	color: var(--letras);
+	transition: 1s all;
+	animation: pulse 3s infinite;
+	border-color: var(--detalhes);
+	margin-bottom: 30px;
+}
+
+form .botao-enviar:hover {
+	letter-spacing: 2px;
+}
+
+.topicos .links {
+	margin-top: 10px;
+}
+
+/*____________________FOOTER____________________*/
+body footer {
+	height: 80px;
+    box-shadow: 0px 0px 20px var(--detalhes);
+}
+footer p {
+	color: #555;
+	text-align: center;
+	font-weight: bold;
+}
+
+footer .nome {
+	padding-top: 20px;
+	font-size: 18px;
+}
