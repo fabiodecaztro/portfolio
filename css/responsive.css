@@ -48,7 +48,7 @@
 	}
 }
 
-@media screen and (max-width: 426px){
+@media screen and (max-width: 526px){
 
 	:target {
 		scroll-margin-top: 160px;

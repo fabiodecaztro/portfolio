@@ -309,6 +309,7 @@ form .botao-enviar:hover {
 
 /*____________________FOOTER____________________*/
 body footer {
+	width: auto;
 	height: 80px;
     box-shadow: 0px 0px 20px var(--detalhes);
 }
