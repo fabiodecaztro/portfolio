@@ -279,10 +279,11 @@ form textarea {
 	width: 300px;
 	height: 100px;
 	text-align: center;
-	border: 2px solid var(--detalhes);
+	border: 2px solid var(--letras);
 	color: var(--letras);
 	border-radius: 5px;
 	background: var(--fundo);
+	resize: none;
 }
 
 textarea::placeholder {
