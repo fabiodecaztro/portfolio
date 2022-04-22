@@ -1,10 +1,10 @@
-@media screen and (max-width: 769px){
+@media screen and (max-width: 769px) {
 
 	:target {
 		scroll-margin-top: 130px;
 	}
-	
-	body .cabecalho{
+
+	body .cabecalho {
 		height: 100px;
 		padding: 0 0;
 	}
@@ -26,7 +26,7 @@
 	}
 
 	.menu li {
-		margin-bottom: 15px;		
+		margin-bottom: 15px;
 	}
 
 	main {
@@ -38,7 +38,8 @@
 		padding-left: 15px;
 	}
 
-	#projetos .esq, #projetos .dir {
+	#projetos .esq,
+	#projetos .dir {
 		width: auto;
 	}
 
@@ -48,12 +49,12 @@
 	}
 }
 
-@media screen and (max-width: 526px){
+@media screen and (max-width: 526px) {
 
 	:target {
 		scroll-margin-top: 160px;
 	}
-	
+
 	body .cabecalho {
 		height: 140px;
 		padding: 0 0;
@@ -83,16 +84,17 @@
 		margin: 0 auto;
 		padding-left: 0px;
 	}
-	
+
 	main .apresentacao {
-		padding-top: 30px 
+		padding-top: 30px
 	}
 
 	.apresentacao .links li {
 		margin-bottom: 15px;
 	}
 
-	#projetos .esq, #projetos .dir {
+	#projetos .esq,
+	#projetos .dir {
 		width: auto;
 	}
 

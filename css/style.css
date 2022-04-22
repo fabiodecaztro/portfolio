@@ -1,9 +1,9 @@
 :root {
-	--fundo:	#cdf1ee;
-	--detalhes:	#0FB2F2;
-	--botoes:	#0F88F2;
-	--letras:	#1B3BF2;
-	--enfase:	#076DF2;
+	--fundo: #e9f8f7;
+	--detalhes: #0FB2F2;
+	--botoes: #0F88F2;
+	--letras: #1B3BF2;
+	--enfase: #076DF2;
 
 }
 
@@ -76,27 +76,28 @@ body .cabecalho {
 	display: inline-block;
 }
 
-.menu .bt-inicio, .bt-skills{
+.menu .bt-inicio,
+.bt-skills {
 	width: 60px;
 }
 
-.menu .bt-sobre{
+.menu .bt-sobre {
 	width: 107px;
 }
 
-.menu .bt-hobbies{
+.menu .bt-hobbies {
 	width: 83px;
 }
 
-.menu .bt-formacao{
+.menu .bt-formacao {
 	width: 98px;
 }
 
-.menu .bt-projetos{
+.menu .bt-projetos {
 	width: 87px;
 }
 
-.menu .bt-contatos{
+.menu .bt-contatos {
 	width: 91px;
 }
 
@@ -223,7 +224,7 @@ main .topicos {
 	border-radius: 5px;
 }
 
-.conteudo p{
+.conteudo p {
 	padding-bottom: 30px;
 }
 
@@ -256,7 +257,8 @@ main .topicos {
 	padding-bottom: 30px;
 }
 
-form input, button {
+form input,
+button {
 	display: block;
 	width: 300px;
 	text-align: center;
@@ -264,12 +266,12 @@ form input, button {
 	border-radius: 5px;
 	margin-bottom: 20px;
 	margin-top: 2px;
-	color: var(--letras);	
+	color: var(--letras);
 	background-color: var(--fundo);
 }
 
-form label{	
-    margin-left: 10px;
+form label {
+	margin-left: 10px;
 }
 
 form textarea {
@@ -312,8 +314,9 @@ form .botao-enviar:hover {
 body footer {
 	width: auto;
 	height: 80px;
-    box-shadow: 0px 0px 20px var(--detalhes);
+	box-shadow: 0px 0px 20px var(--detalhes);
 }
+
 footer p {
 	color: #555;
 	text-align: center;
