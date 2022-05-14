@@ -1,7 +1,0 @@
-cores
-	laranja - #ff5f00
-	hover amarelo - #ffee00
-	fundo preto - #0f0f0f
-
-tamano borda
-	3px
