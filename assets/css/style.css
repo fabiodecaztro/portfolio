@@ -6,6 +6,15 @@ body {
 	padding-left: 30px;
 }
 
-h1 {
+h2 {
 	font-size: 2em;
+}
+
+h2::first-letter {
+	color: #ff5f00
+}
+
+h3 {
+	font-size: 1.5em;
+	/* padding: 25px 0 0 0; */
 }
