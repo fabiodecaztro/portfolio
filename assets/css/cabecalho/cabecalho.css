@@ -1,0 +1,9 @@
+.cabecalho {
+	align-items: center;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	transition: 2s all;
+	width: calc(100vw - 160px);
+}

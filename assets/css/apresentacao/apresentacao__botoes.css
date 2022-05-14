@@ -1,0 +1,13 @@
+.apresentacao__botoes {
+	border-bottom: 3px solid #ff5f00;
+	color: #ffffff;
+    font-size: 1.2em;
+	margin-right: 10px;
+	text-decoration: none;
+	transition: 1s all;
+
+}
+
+.apresentacao__botoes:hover {
+	border-color: #ffee00;
+}

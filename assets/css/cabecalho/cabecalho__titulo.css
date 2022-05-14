@@ -1,0 +1,8 @@
+.cabecalho__titulo {
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+
+.cabecalho__titulo span {
+    color: #ff5f00;
+}

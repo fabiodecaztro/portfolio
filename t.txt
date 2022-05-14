@@ -1,0 +1,204 @@
+<div class="topicos" id="sobre">
+			<h2>Sobre mim</h2>
+			<p class="conteudo">
+				Tenho 34 anos, morador de Osasco/São Paulo e pai de um casal.
+				<br>
+				<br>
+				Comecei a trabalhar ainda jovem mas sem deixar os estudos, tive alguns percalços na vida mas hoje me
+				encontro no primeiro semestre de engenharia de software e desde abril de 2021 venho estudando linguagens
+				de programação.
+				<br>
+				<br>
+				Graças a bons resultados em empresas e busca a pessoal no aprendizado fui: Líder de equipe em 2018 por
+				demonstrar controle, sagacidade e sabedoria para controlar situações tensas e conflitos em condomínio.
+				Criação de um gerenciador de condôminos simples em Python e SQLite em 2021 para aprimorar e agilizar meu
+				trabalho.
+				<br>
+				<br>
+				Venho aprimorando cada vez mais para mostrar minhas habilidades e assim obter uma oportunidade
+				profissional.
+			</p>
+		</div>
+
+		<div class="topicos" id="skills">
+			<h2>Skills</h2>
+			<div class="conteudo">
+				<div class="box">
+					<img class="icones" src="image/html.png" alt="icone html 5">
+					<p>HTML 5</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/css.png" alt="icone css 3">
+					<p>CSS 3</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/js.png" alt="icone javascript">
+					<p>JavaScript</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/python.png" alt="icone python">
+					<p>Python</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/data.png" alt="icone banco de dados">
+					<p>SQLite</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/excel.png" alt="icone excel">
+					<p>Excel</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="topicos" id="hobbies">
+			<h2>Hobbies</h2>
+			<div class="conteudo">
+				<div class="box">
+					<img class="icones" src="image/notas.png" alt="icone notas musicais">
+					<p>Ouvir música</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/livro.png" alt="icone livro aberto">
+					<p>Ler livros</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/game.png" alt="icone controle de video game">
+					<p>Jogar video-game</p>
+				</div>
+
+				<div class="box">
+					<img class="icones" src="image/claquete.png" alt="icone claquete de cinema">
+					<p>Filmes e séries</p>
+				</div>
+			</div>
+		</div>
+
+		<section class="topicos" id="formacao">
+			<h2>Formação</h2>
+			<div class="conteudo">
+				<h3>Introdução a Python - HTML e CSS</h3>
+				<p>Abril 2021 - Curso em Vídeo</p>
+
+				<h3>Gestão de Projetos - Excel - Mindset Ágil</h3>
+				<p>Junho 2021 - Bettha/Cia de Talentos</p>
+
+				<h3>Engenharia de Software (cursando)</h3>
+				<p>Outubro 2021 - Pitágoras Ampli EAD</p>
+
+				<h3>Front End - Lógica de Programação - Empreendedorismo (cursando)</h3>
+				<p>Dezembro 2021 - Alura/Oracle</p>
+
+				<div class="certificados">
+					<a class="formatacao-link"
+						href="https://onedrive.live.com/?authkey=%21AGlffXre8V6WB%5F8&id=66E84483C790C12%2136665&cid=066E84483C790C12"
+						target="blank">Certificados</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="topicos" id="projetos">
+			<h2>Projetos</h2>
+			<div class="conteudo">
+				<h3>Codificador de Mensagens</h3>
+				<p>Codificador simples de mensagens com exclusão automática de caracteres especiais, números e letras
+					maiúsculas.
+					<br>
+					<br>
+					<a href="https://fabiodecaztro.github.io/codificador_mensagens/">Conheça e codifique uma
+						mensagem!</a></p>
+
+				<div class="esq">
+					<img class="img-projetos" src="image/codificador1.png"
+						alt="tela inicial do codificador de mensagens">
+					<legend>Tela inicial</legend>
+
+					<img class="img-projetos" src="image/codificador3.png" alt="mensagem codificada">
+					<legend>Mensagem codificada</legend>
+				</div>
+
+				<div class="dir">
+					<img class="img-projetos" src="image/codificador2.png"
+						alt="botão para copiar a mensagem codificada">
+					<legend>Botão para copiar a mensagem codificada</legend>
+				</div>
+
+				<h3>A Forca</h3>
+				<p>Jogo que consiste em acertar determinada palavra com dicas referente a quantidade e tema.
+					<br>
+					<br>
+					<a href="https://fabiodecaztro.github.io/a-forca/">Conheça e divirta-se jogando!</a></p>
+
+				<div class="esq">
+					<img class="img-projetos" src="image/a-forca1.png" alt="tela inicial do codificador de mensagens">
+					<legend>Tela inicial</legend>
+					<img class="img-projetos" src="image/a-forca3.png" alt="Tela com responsividade">
+					<legend>Tela com responsividade</legend>
+				</div>
+				<div class="dir">
+					<img class="img-projetos" src="image/a-forca2.png" alt="tela do jogo na seção Adicionar Palavra">
+					<legend>Opção de adicionar palavras com filtragem de caracteres especiais</legend>
+				</div>
+
+
+
+			</div>
+		</section>
+
+		<div class="topicos" id="contatos">
+			<h2>Contatos</h2>
+			<p class="conteudo">
+				Entre em contato por email, telefone ou pelas redes sociais.
+				<br>
+				<br>
+				11 96581-2168
+				<br>
+				fabiodecaztro@gmail.com
+			</p>
+
+			<!-- <p class="conteudo">Mande uma mensagem, estarei a disposisão.</p>
+
+			<form action="" method="" name="">
+				<label for="nome-contato">Nome Completo</label>
+				<input id="nome-contato" type="text" name="nome-contato" placeholder="Digite seu nome completo"required>
+
+				<label for="email-contato">Email</label>
+				<input id="email-contato" type="email" name="email-contato" placeholder="seuemail@provedor.com" required>
+
+				<label for="telefone-contato">Telefone/Celular</label>
+				<input id="telefone-contato" type="nunber" name="telefone-contato" placeholder="98 98765-4321">
+
+				<label for="assunto-contato">Assunto</label>
+				<input id="assunto-contato" type="text" name="assunto-contato" placeholder="Coloque o assunto" required>
+				
+				<label for="msg-contato">Mensagem</label>
+				<textarea id="msg-contato" name="msg-contato" placeholder="Escreva sua mensagem" rows="" cols=""></textarea>
+				
+				<input class="botao-enviar" type="submit" value="Enviar Mensagem"name="submit">
+			</form>
+
+			<p class="3">Ou se preferir...</p> -->
+
+			<ul class="links">
+				<li class="bt-github"><a class="formatacao-link" href="https://www.github.com/fabiodecaztro"
+						target="blank">GitHub</a></li>
+				<li class="bt-linkedin"><a class="formatacao-link" href="https://www.linkedin.com/in/fabio-amorim/"
+						target="blank">LinkedIn</a></li>
+				<li class="bt-twitter"><a class="formatacao-link" href="https://www.twitter.com/fabio_de_castro"
+						target="blank">Twitter</a></li>
+				<li class="bt-whatsapp"><a class="formatacao-link"
+						href="https://api.whatsapp.com/send?phone=5511949664806" target="blank">WhatsApp</a></li>
+			</ul>
+		</div>
+	</main>
+
+	<footer>
+		<p class="nome">Desenvolvido por Fabio Amorim</p>
+		<p class="ano">2022</p>
+	</footer>
