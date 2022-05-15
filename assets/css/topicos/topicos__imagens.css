@@ -1,4 +1,5 @@
 .topicos__imagens {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -8,5 +8,6 @@
 }
 
 .botoes:hover {
-    border-color: #ffee00;
+    border-bottom: 15px solid #ffee00;
+    color: #ff5f00;
 }
