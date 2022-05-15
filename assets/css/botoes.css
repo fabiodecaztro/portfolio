@@ -7,7 +7,12 @@
     transition: 1s all;
 }
 
+.botoes--cabecalho {
+    margin: 0 0 0 10px;
+}
+
 .botoes:hover {
-    border-bottom: 15px solid #ffee00;
+    border-bottom: 3px solid #ffee00;
+    box-shadow: 5px 5px 3px #ffee0069;
     color: #ff5f00;
 }

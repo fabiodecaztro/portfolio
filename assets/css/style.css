@@ -3,7 +3,13 @@ body {
 	color: #ffffff;
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 700;
-	padding-left: 30px;
+	padding: 0 30px 30px 30px;
+}
+
+main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
 }
 
 h2 {

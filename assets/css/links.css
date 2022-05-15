@@ -1,6 +1,11 @@
 .links {
-	align-items: center;
+	align-content: center;
 	display: flex;
-	margin-right: 10px;
-	padding-bottom: 50px;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	line-height: 2em;
+}
+
+.links--cabecalho {
+	justify-content: flex-end;
 }
