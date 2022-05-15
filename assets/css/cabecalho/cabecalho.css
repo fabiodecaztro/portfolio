@@ -3,5 +3,13 @@
 	display: flex;
 	margin-top: 30px;
 	justify-content: space-between;
-	transition: 2s all;
+	transition: 2s border;
+}
+
+@media screen and (max-width: 608px) {
+	.cabecalho {
+		align-items: stretch;
+		flex-direction: column;
+		text-align: center;
+	}
 }

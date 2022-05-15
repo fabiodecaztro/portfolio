@@ -5,3 +5,10 @@
 	margin-left: 10px;
 	width: 300px;
 }
+
+@media screen and (max-width: 608px) {
+    .apresentacao__foto {
+        margin: 10px 0;
+		width: 250px;
+    }
+}

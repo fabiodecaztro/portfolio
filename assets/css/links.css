@@ -9,3 +9,9 @@
 .links--cabecalho {
 	justify-content: flex-end;
 }
+
+@media screen and (max-width: 608px) {
+	.links {
+		justify-content: center
+	}
+}
