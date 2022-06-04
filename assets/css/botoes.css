@@ -4,7 +4,7 @@
     font-size: 1.2em;
     margin-right: 10px;
     text-decoration: none;
-    transition: 1s all;
+    transition: 1s;
 }
 
 .botoes--cabecalho {
@@ -13,7 +13,6 @@
 
 .botoes:hover {
     border-bottom: 3px solid #ffee00;
-    box-shadow: 5px 5px 3px #ffee0069;
     color: #ff5f00;
 }
 
