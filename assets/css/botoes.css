@@ -11,9 +11,11 @@
     margin: 0 0 0 10px;
 }
 
-.botoes:hover {
-    border-bottom: 3px solid #ffee00;
-    color: #ff5f00;
+@media screen and (min-width: 768px) {
+    .botoes:hover {
+        border-bottom: 3px solid #ffee00;
+        color: #ff5f00;
+    }
 }
 
 @media screen and (max-width: 608px) {
